@@ -51,3 +51,7 @@ set guioptions-=m
 set guioptions-=T
 
 set guifont=consolas:h14
+
+
+" allow the . to execute once for each line of a visual selection
+vnoremap . :normal .<CR>
